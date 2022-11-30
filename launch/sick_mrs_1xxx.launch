@@ -61,7 +61,7 @@ default max_angle for this scanner type is +137.5 degree.
         <!-- Using range_filter_handling 4 or 5 requires handling of FLT_MAX and NAN values in an application.      -->
         <param name="range_min" type="double" value="0.4"/>
         <param name="range_max" type="double" value="100.0"/>
-        <param name="range_filter_handling" type="int" value="0"/>
+        <param name="range_filter_handling" type="int" value="5"/>
         
         <!-- Apply an additional transform to the cartesian pointcloud, default: "0,0,0,0,0,0" (i.e. no transform) -->
         <!-- Note: add_transform_xyz_rpy is specified by 6D pose x, y, z, roll, pitch, yaw in [m] resp. [rad] -->
